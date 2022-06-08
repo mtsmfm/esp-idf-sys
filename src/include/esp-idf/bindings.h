@@ -14,6 +14,8 @@
 #include "esp_interface.h"
 #include "esp_ipc.h"
 
+#include "esp_hidd.h"
+
 #if ESP_IDF_VERSION_MAJOR == 4
 #include "esp_int_wdt.h"
 #elif ESP_IDF_VERSION_MAJOR == 5
